@@ -1,0 +1,139 @@
+[
+    {
+        "document_name": "Nairobi_Lifecare_Hospital_Invoice_Wanjiku_Kamau.pdf",
+        "claim_id": null,
+        "extraction_method": "pdf_text",
+        "confidence_score": 1.0,
+        "fields_extracted": {
+            "claim_id": null,
+            "member_id": "1538500",
+            "provider_name": "Nairobi Lifecare Hospital",
+            "provider_id": null,
+            "date_of_service": "2026-02-12",
+            "diagnosis_code": null,
+            "procedure_code": null,
+            "claimed_amount": 4300.0,
+            "currency": "KES",
+            "invoice_number": null
+        },
+        "fields_missing": [
+            "claim_id"
+        ],
+        "validation_flags": [],
+        "raw_text_snippet": "NAIROBI Nairobi Lifecare Hospital LIFECARE Outpatient Invoice Full Name: Wanjiku Kamau Insurance Member No: 1538500 Hospital No: 400120 Visit Type: Outpatient Phone: 250781261474 Date: 12 Feb 2026 Ser"
+    },
+    {
+        "document_name": "Nairobi_Lifecare_Hospital_Invoice_Sharma_Siddharth.pdf",
+        "claim_id": "NLH-INV-2026-003",
+        "extraction_method": "pdf_text",
+        "confidence_score": 1.0,
+        "fields_extracted": {
+            "claim_id": "NLH-INV-2026-003",
+            "member_id": "1536500",
+            "provider_name": "Nairobi Lifecare Hospital",
+            "provider_id": null,
+            "date_of_service": "2026-02-12",
+            "diagnosis_code": null,
+            "procedure_code": null,
+            "claimed_amount": 17000.0,
+            "currency": "KES",
+            "invoice_number": "NLH-INV-2026-003"
+        },
+        "fields_missing": [],
+        "validation_flags": [],
+        "raw_text_snippet": "Nairobi Lifecare Hospital NAIROBI LIFECARE Outpatient Invoice Invoice No: NLH-INV-2026-003 Full Name: Sharma Siddharth Insurance Member No: 1536500 Hospital No: 100120 Visit Type: Dental Phone: - Date"
+    },
+    {
+        "document_name": "Nairobi_Lifecare_Hospital_Invoice_Deepak_Bodkhe.pdf",
+        "claim_id": "NLH-INV-2026-002",
+        "extraction_method": "pdf_text",
+        "confidence_score": 1.0,
+        "fields_extracted": {
+            "claim_id": "NLH-INV-2026-002",
+            "member_id": "1536400",
+            "provider_name": "Nairobi Lifecare Hospital",
+            "provider_id": null,
+            "date_of_service": "2026-02-12",
+            "diagnosis_code": null,
+            "procedure_code": null,
+            "claimed_amount": 9548.97,
+            "currency": "KES",
+            "invoice_number": "NLH-INV-2026-002"
+        },
+        "fields_missing": [],
+        "validation_flags": [],
+        "raw_text_snippet": "Nairobi Lifecare Hospital NAIROBI LIFECARE Outpatient Invoice Invoice No: NLH-INV-2026-002 Full Name: Deepak Bodkhe Insurance Member No: 1536400 Hospital No: 800120 Visit Type: Outpatient Phone: - Dat"
+    },
+    {
+        "document_name": "Sharma Siddharth Claim Form.pdf",
+        "claim_id": "20011942",
+        "extraction_method": "ocr",
+        "confidence_score": 0.7,
+        "fields_extracted": {
+            "claim_id": "20011942",
+            "member_id": "1536500",
+            "provider_name": "Eden Care Medical",
+            "provider_id": null,
+            "date_of_service": null,
+            "diagnosis_code": null,
+            "procedure_code": null,
+            "claimed_amount": null,
+            "currency": "KES",
+            "invoice_number": "20011942"
+        },
+        "fields_missing": [
+            "claimed_amount",
+            "date_of_service"
+        ],
+        "validation_flags": [],
+        "raw_text_snippet": "EDEN CARE  Eden Care Medical Health Insurance Claims Form     Visit ID: 20011942 1. Patient Details Membership number, 1536500.  Sumame Sharma  Firstname(s)(as peridentitydocument) Siddharth  Date of "
+    },
+    {
+        "document_name": "Deepak Bodkhe Claim Form.pdf",
+        "claim_id": "20011941",
+        "extraction_method": "ocr",
+        "confidence_score": 0.7,
+        "fields_extracted": {
+            "claim_id": "20011941",
+            "member_id": "1536400",
+            "provider_name": "Eden Care Medical",
+            "provider_id": null,
+            "date_of_service": null,
+            "diagnosis_code": null,
+            "procedure_code": null,
+            "claimed_amount": null,
+            "currency": "KES",
+            "invoice_number": "20011941"
+        },
+        "fields_missing": [
+            "claimed_amount",
+            "date_of_service"
+        ],
+        "validation_flags": [],
+        "raw_text_snippet": "EDEN CARE  Eden Care Medical Health Insurance Claims Form     Visit ID: 20011941  1. Patient Details  Membership number 1536400  Surname . Bodkhe  Firstname(s)(as peridentitydocument) Deepak  Date of "
+    },
+    {
+        "document_name": "claim form Wanjiku Kamua.pdf",
+        "claim_id": "20011943",
+        "extraction_method": "ocr",
+        "confidence_score": 0.7,
+        "fields_extracted": {
+            "claim_id": "20011943",
+            "member_id": "1538500",
+            "provider_name": "Eden Care Medical",
+            "provider_id": null,
+            "date_of_service": null,
+            "diagnosis_code": null,
+            "procedure_code": null,
+            "claimed_amount": null,
+            "currency": "KES",
+            "invoice_number": "20011943"
+        },
+        "fields_missing": [
+            "claimed_amount",
+            "date_of_service"
+        ],
+        "validation_flags": [],
+        "raw_text_snippet": "C \\  c) EDEN CARE  Eden Care Medical Health Insurance Claims Form  Visit ID: 20011943  1. Patient Detaite  Membership number 1538500  Surname | Kamau  Firstname(s)(as peridentitydocument) | Wanjiku  ."
+    }
+]
