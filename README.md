@@ -2,7 +2,7 @@ Ginja AI - Healthcare Document Extraction Pipeline
 
 An end-to-end data extraction pipeline built for the Ginja AI AI/ML Engineering Internship case study. This system processes mixed-format healthcare claims (digital PDFs, scanned images) and outputs structured, validated JSON/CSV records using a combination of traditional parsing and Vision Language Models (VLMs).
 
-**🗂️ Repository Structure**
+**🗂️ Repository Structure(inside Ginja_AI_Case_Study_Claims folder)**
 
 src/extraction_pipeline.ipynb: The main Google Colab notebook containing the complete execution pipeline.
 
