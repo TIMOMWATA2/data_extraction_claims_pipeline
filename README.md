@@ -29,6 +29,8 @@ I personally initially used the first commented method of mounting my personal g
 
 Run All: Click Runtime -> Run All. The pipeline will execute format detection, PDF/OCR extraction, VLM testing, normalization, validation, and export.
 
+**The Output**: After running the code successfully, check the folder icon on left side menu of Colab for the JSON file and the CSV file.
+
 **📄 Test Documents Used**
 
 The pipeline was validated against a mix of 6 documents representing real-world variability:
